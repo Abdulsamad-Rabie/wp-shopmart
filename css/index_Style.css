@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+}
+:root {
+    --clr-first: #f3ef51;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 0 25px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 80px;
+    align-items: center;
+}
+
+.login-btn {
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: var(--clr-first);
+    padding: 8px 40px; 
+    transition: .5s;
+}
+.login-btn:hover {
+    font-size: 22px;
+    color: white;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 10px;
+    top: 200px;
+    font-size: 2em;
+
+    
+}
+.social-media i {
+    padding: 15px;
+    color: #000;
+}
+
+.social-media i:hover {
+    background-color: #220efb;
+    color: #fff;
+}
+
+
+.banner {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.app-text {
+    padding-left: 12%;
+     width: 50%;
+   
+}
+.app-text h3 {
+    margin-top: 100px;
+    font-size: 17px;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.app-text h1 {
+    font-size: 51px;
+    color: #000;
+    margin-top: 30px;
+    font-weight: 800;
+    line-height: 1;
+}
+.app-text p {
+    font-size: 19px;
+    margin: 30px 30px 30px 0;
+    letter-spacing: 1px;
+    color: #000;
+    padding-right: 250px;
+}
+.app-picture {
+    width: 50%;
+}
+.app-picture img {
+    width: 100%;
+}
+.btn-group{
+    display: flex;
+    align-items: center;
+}
+.btn-group .signup-btn{
+    cursor: pointer;
+    display: block;
+    color: #000;
+    text-align: center;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 32px;
+    background-color: #ffa037;
+    padding: 10px 30px;
+    margin-right: 20px;
+    transition: .5s;
+}
+.btn-group .signup-btn:hover{
+    color: #fff;
+    font-size: 17px;
+}
+
+.play-btn-inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #000;
+}
+.play-btn-inner i{
+    color: white;
+    padding: 15px 19px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-group span {
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto 20px;
+    cursor: pointer;
+}
